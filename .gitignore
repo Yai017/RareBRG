@@ -1,0 +1,13 @@
+__pycache__/
+*.pyc
+.DS_Store
+
+# contents of the data and results folders are created by the commands
+/data/datasets/*
+/data/ontologies/*
+/data/derived/*
+/results/*/*
+!.gitkeep
+
+# scratch space of the normalization skill
+skills/*/workdir/

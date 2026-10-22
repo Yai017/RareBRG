@@ -1,0 +1,9 @@
+# RareBRG (Python 3.10+)
+requests>=2.28
+numpy>=1.24
+pandas>=1.5          # PubCaseFinder replies (run.py tools)
+
+# Only for SapBERT candidate retrieval, when new diagnosis names are left for agent
+# matching (run.py prepare sapbert-index, run.py normalize):
+#   torch
+#   transformers
